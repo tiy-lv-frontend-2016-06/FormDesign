@@ -1,0 +1,56 @@
+body {
+	background-color: rgb(86,146,201);
+}
+
+label {
+	color: white;
+	font-family:Arial;
+	font-size: 10px;
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+input, textarea, select {
+	background-color: rgb(86,146,201);
+	font-color: white;
+	border: 1px solid white; 
+	width: 200px;
+}
+
+input {
+	height: 20px;
+}
+
+textarea {
+	height: 100px;	
+}
+
+div {
+	width:200px;
+	height:3000px;
+	float: left;
+	margin-top: 5px;
+	margin-left:12px;
+	display: inline-block;
+}
+
+::-webkit-input-placeholder {
+	color:rgb(0,51,153);
+	font-style: italic;
+}
+
+#country, #talent, #occupation {
+	color: rgb(0,51,153);
+	font-style: italic;
+}
+
+select {
+	border-radius: 0px;
+}
+
+.outer-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
